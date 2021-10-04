@@ -14,5 +14,9 @@
   "home_title": {
     "message": "SKY UX Template",
     "_description": "Title for the home component"
+  },
+  "app_nav_demo": {
+    "message": "Demo",
+    "_description": "The text for the Demo top-level navigation item"
   }
 }
