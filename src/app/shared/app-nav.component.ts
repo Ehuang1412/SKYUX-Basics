@@ -20,6 +20,10 @@ export class AppNavComponent {
     {
       titleKey: 'app_nav_demo',
       path: '/demo'
+    },
+    {
+      name: 'Modal',
+      path: '/modal'
     }
   ];
 }
