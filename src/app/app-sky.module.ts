@@ -12,7 +12,8 @@ import {
 } from '@skyux/indicators';
 
 import {
-  SkyFluidGridModule
+  SkyFluidGridModule,
+  SkyCardModule
 } from '@skyux/layout';
 
 import {
@@ -25,7 +26,8 @@ import {
     SkyAlertModule,
     SkyKeyInfoModule,
     SkyFluidGridModule,
-    SkyNavbarModule
+    SkyNavbarModule,
+    SkyCardModule
   ]
 })
 export class AppSkyModule { }
