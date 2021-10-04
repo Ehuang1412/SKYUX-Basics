@@ -18,5 +18,9 @@
   "app_nav_demo": {
     "message": "Demo",
     "_description": "The text for the Demo top-level navigation item"
+  },
+  "string_name": {
+    "message": "The localization string",
+    "_description": "A description of the string for the translator."
   }
 }
