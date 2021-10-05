@@ -1,4 +1,5 @@
 import {
+  inject,
   TestBed
 } from '@angular/core/testing';
 
@@ -9,10 +10,18 @@ import {
 import {
   expect
 } from '@skyux-sdk/testing';
+import { config } from 'rxjs';
 
 import {
   MyDemoComponent
 } from './my-demo.component';
+
+import {
+  expectAsync
+} from '@skyux-sdk/testing';
+
+// import'@skyux/config';
+
 
 describe('My demo component', () => {
 
@@ -35,5 +44,17 @@ describe('My demo component', () => {
 
     expect(true).toBe(false);
   });
+
+  it('should pass accessibility', async () => {
+    let element;
+    await expectAsync(element).toBeAccessible();
+  }));
+
+  // it('should pass accessibility',
+  //   inject([SkyAppConfig], async (appConfig: SkyAppConfig) => {
+  //     let element;
+  //     await expectAsync(element).toBeAccessible(config.skyux.a11y);
+  //   })
+  // );
 
 });
