@@ -1,6 +1,7 @@
 import {
   NgModule
 } from '@angular/core';
+import { AboutService } from './shared/about.service';
 
 import {
   AppSkyModule
@@ -9,6 +10,10 @@ import {
 @NgModule({
   exports: [
     AppSkyModule
-  ]
+  ],
+  providers: [
+    AboutService
+  ],
+  entryComponents: []
 })
 export class AppExtrasModule { }
