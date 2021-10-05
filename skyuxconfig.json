@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@skyux/config/skyuxconfig-schema.json",
   "mode": "easy",
-  "compileMode": "aot"
+  "compileMode": "aot",
+  "plugins": [
+    "@skyux-sdk/builder-plugin-pact"
+  ]
 }
